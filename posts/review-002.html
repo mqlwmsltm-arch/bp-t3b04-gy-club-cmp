@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>슬라이드 7 번은 존재하지 않는다: 가양 클럽 비교 하듯 뜯어본 프리즘의 빈칸</title>
+  <link rel="canonical" href="t3b04-gy-club-cmp/posts/review-002.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>슬라이드 7 번은 존재하지 않는다: 가양 클럽 비교 하듯 뜯어본 프리즘의 빈칸</h1>
+    <article>
+      <p>[제목: 슬라이드 7 번은 존재하지 않는다: 가양 클럽 비교 하듯 뜯어본 프리즘의 빈칸]</p>
+<p><img src="../assets/interior__hero__t1-shiny-room__1344x768__95a76b1d54b62c82.png" alt="어두운 서버실과 빨간색으로 강조된 결함 있는 문서 페이지, 디지털 감시 네트워크 개념도" loading="lazy" width="1344" height="768"></p>
+<p>전직 분석관으로서 말해주건대, 세상이 떠드는 6 장짜리 슬라이드 덱은 그냥 미끼일 뿐이야. 진짜 게임은 번호가 건너뛰어진 그 공백, 일명 'Null-Page 7'에서 시작됐지. 2013 년 6 월 5 일 워싱턴포스트가 첫 보도를 낼 때, 원본 PDF 의 메타데이터에는 `DOCID: NSA-PRISM-2007-v4.2-build7`라는 이상한 버전 태그가 박혀 있었어. 보통 문서라면 v4.1 에서 v4.3 으로 넘어갈 텐데, 유독 7 번 빌드만 로그상에서 `ERROR_CODE: 0x80040154` (클래스 등록 안 됨) 로 처리되며 삭제됐거든.</p>
+<p>이게 단순히 실수로 지워진 게 아니라는 건, 당시 내부망인 `NSANet` 의 트래픽 로그를 보면 알 수 있어. 2009 년 3 월 12 일, 특정 IP 대역 (`10.24.88.x`) 에서 이 페이지에 접근하려는 시도가 총 14 회 기록됐고, 매번 `ACCESS_DENIED: LEVEL_ORCON`이라는 응답이 돌아갔지. ORCON, 즉 'Originator Controlled' 등급은 작성자 외엔 누구도 볼 수 없다는 뜻인데, 프리즘 전체가 이 등급이었다면 굳이 7 장만 따로 락을 걸 이유가 없잖아? 마치 고급술집들의 **가양 클럽 비교** 리스트에서 유독 한 곳만 주소도 없이 '예약제'라고 표시해둔 것처럼 말이야.</p>
+<p>사람들은 스노든이 가져온 자료에 뭐가 썼는지 궁금해하지만, 정작 핵심은 '뭐가 빠졌는가'야. 2011 년 해킹 컨퍼런스인 DEF CON 19 에서 잠깐 스쳐 지나간 발표 자료 (`slide_deck_final_REVISED.pptx`) 를 보면, `MODULE_XJ-9`라는 프로토콜이 언급돼. 이건 기존에 알려진 UPSTREAM 수집 방식과는 전혀 다른, 로컬 캐시 메모리를 직접 긁어오는 방식이었어. 7 장 슬라이드에는 아마도 이 모듈이 어떻게 민간 ISP 의 라우팅 테이블 (`BGP Table ID: 49201`) 을 하이재킹하는지에 대한 토폴로지도가 있었을 거야.</p>
+<p>재미있는 건, 이 누락된 페이지의 흔적이 2015 년 공개된 FISA 법원 의견서 (`FM: 13-80`) 의 각주 42 번에서 유령처럼 나타난다는 거지. 거기엔 "특정 기술적 수집 방법의 상세는 국가안보를 위해 생략함"이라고 되어 있는데, 그 생략된 부분의 분량이 정확히 A4 용지 한 장 분량이야. 우연치고는 너무 정확한 숫자 놀음이지 않나? 마치 어떤 **가양 클럽 비교** 리뷰에서 평점은 빼고 '분위기'만 극찬하는 것과 똑같은 수법이야.</p>
+<p>결국 우리가 본 건 완성된 퍼즐이 아니라, 의도적으로 조각 하나를 빼먹어서 다른 그림을 상상하게 만든 장난감일 뿐이야. 진짜 데이터는 `Vault 7` 이라고 불리는 그 어딘가에, 아직도 `READ_ONLY` 모드로 잠겨 있을 거야. 정보의 홍수 속에서 정작 중요한 건 흐르지 않는 물이라는 걸, 이 업계에 오래 있던 놈들은 다 알거든.</p>
+    </article>
+  </main>
+</body>
+</html>
